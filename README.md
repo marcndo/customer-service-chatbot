@@ -3,10 +3,10 @@
 Welcome to the Customer Service Chatbot Project! This repository showcases a complete pipeline for building and deploying an intelligent question-answering (QA) system. The chatbot leverages a fine-tuned Large Language Model (LLM) on a custom dataset from StackOverflow, providing accurate and context-aware responses to user queries. Designed as a modular and extensible solution, this project demonstrates best practices in NLP, data preprocessing, model fine-tuning, and API development.
 
 ## Table of Contents.
- * Introduction
- * Features
- * Architecture
- * Setup Instructions
+ * [Introduction](#Introduction)
+ * [Features](#Features)
+ * [Architecture](#Architecture)
+ * [Setup Instructions](#Setup Instructions)
  * Usage
  * Dataset
  * Model
