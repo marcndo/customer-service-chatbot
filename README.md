@@ -66,12 +66,12 @@ Ensure you have the following installed:
  * virtualenv
 1. Clone the repository:
    ```bash
-   * git clone https://github.com/marcndo/customer-service-chatbot.git
-   * cd customer-service-chatbot
+    git clone https://github.com/marcndo/customer-service-chatbot.git
+    cd customer-service-chatbot
 3. Create a virtual environment and activate it:
    ```bash
-   * virtualenv venv
-   *  venv/bin/activate  # On Windows: venv\Scripts\activate
+    virtualenv venv
+    venv/bin/activate  # On Windows: venv\Scripts\activate
 4. Install dependencies:
    ```bash
     pip install -r requirements.txt
@@ -127,8 +127,6 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 | /api/health     | GET    | Check API health status            |
 -----------------------------------------------------------------
 
-## Project Structure
-```markdown customer_service_chatbot_project/ ├── README.md # Documentation ├── app/ # Application logic │ ├── bert_model.py # Fine-tuning BERT │ ├── qa_model.py # QA model logic │ ├── spacy_model.py # Optional spaCy NER │ ├── routes.py # API routes ├── models/ # Model-related files │ ├── qa_model.py # Fine-tuned model handler ├── utils/ # Utility scripts │ ├── data_loader.py # Dataset preprocessing │ ├── tokenization.py # Tokenization utilities │ ├── ner.py # NER utilities │ ├── stackoverflow_qa.csv # Cleaned dataset ├── tests/ # Test cases │ ├── test_routes.py # Unit tests for API ├── requirements.txt # Dependencies ├── run.py # API entry point```
 
 ## Future Enhancements
 1. Integrate a frontend interface for improved user experience.
@@ -139,4 +137,5 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 ## Contact.
  * Feel free to reach out if you have any questions or suggestions:
  * Email: ndowahmarcel@gmail.com.
+ * [LinkedIn](https://www.linkedin.com/in/marcelndowah/)
 Thank you for exploring this project. I hope it demonstrates my skills and passion for AI and NLP development!
