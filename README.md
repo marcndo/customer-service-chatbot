@@ -91,9 +91,39 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
  * PyTorch.
  * spaCy (for NER)
 ## API Endpoints
-|* Endpoint*  | *method* | *Description*
-----------------------------------------------------------
-|/api/ask     |POST      |Submit a question for an answer
-----------------------------------------------------------
-|/api/health  |GET       |Check API health status
-----------------------------------------------------------
+| Endpoint        | Method | Description                         |
+|-----------------|--------|-------------------------------------|
+| /api/ask        | POST   | Submit a question for an answer    |
+| /api/health     | GET    | Check API health status            |
+-----------------------------------------------------------------
+
+## Project Structure.
+customer_service_chatbot_project/
+├── README.md                # Documentation
+├── app/                     # Application logic
+│   ├── bert_model.py        # Fine-tuning BERT
+│   ├── qa_model.py          # QA model logic
+│   ├── spacy_model.py       # Optional spaCy NER
+│   ├── routes.py            # API routes
+├── models/                  # Model-related files
+│   ├── qa_model.py          # Fine-tuned model handler
+├── utils/                   # Utility scripts
+│   ├── data_loader.py       # Dataset preprocessing
+│   ├── tokenization.py      # Tokenization utilities
+│   ├── ner.py               # NER utilities
+│   ├── stackoverflow_qa.csv # Cleaned dataset
+├── tests/                   # Test cases
+│   ├── test_routes.py       # Unit tests for API
+├── requirements.txt         # Dependencies
+├── run.py                   # API entry point
+
+## Future Enhancements
+1. Integrate a frontend interface for improved user experience.
+2. Add support for multilingual QA.
+3. Implement real-time feedback loops to improve model performance.
+4. Explore other transformer models like GPT for enhanced conversational capabilities.
+
+## Contact.
+ * Feel free to reach out if you have any questions or suggestions:
+ * Email: ndowahmarcel@gmail.com
+Thank you for exploring this project. I hope it demonstrates my skills and passion for AI and NLP development!
