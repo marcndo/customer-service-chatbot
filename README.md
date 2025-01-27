@@ -98,7 +98,7 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 -----------------------------------------------------------------
 
 ## Project Structure.
-customer_service_chatbot_project/
+``customer_service_chatbot_project/
 ├── README.md                # Documentation
 ├── app/                     # Application logic
 │   ├── bert_model.py        # Fine-tuning BERT
@@ -115,7 +115,8 @@ customer_service_chatbot_project/
 ├── tests/                   # Test cases
 │   ├── test_routes.py       # Unit tests for API
 ├── requirements.txt         # Dependencies
-├── run.py                   # API entry point
+├── run.py                   # API entry point)``
+
 
 ## Future Enhancements
 1. Integrate a frontend interface for improved user experience.
