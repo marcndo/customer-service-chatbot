@@ -98,24 +98,7 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 -----------------------------------------------------------------
 
 ## Project Structure.
-``customer_service_chatbot_project/
-├── README.md                # Documentation
-├── app/                     # Application logic
-│   ├── bert_model.py        # Fine-tuning BERT
-│   ├── qa_model.py          # QA model logic
-│   ├── spacy_model.py       # Optional spaCy NER
-│   ├── routes.py            # API routes
-├── models/                  # Model-related files
-│   ├── qa_model.py          # Fine-tuned model handler
-├── utils/                   # Utility scripts
-│   ├── data_loader.py       # Dataset preprocessing
-│   ├── tokenization.py      # Tokenization utilities
-│   ├── ner.py               # NER utilities
-│   ├── stackoverflow_qa.csv # Cleaned dataset
-├── tests/                   # Test cases
-│   ├── test_routes.py       # Unit tests for API
-├── requirements.txt         # Dependencies
-├── run.py                   # API entry point)``
+```customer_service_chatbot_project/ ├── README.md # Documentation ├── app/ # Application logic │ ├── bert_model.py # Fine-tuning BERT │ ├── qa_model.py # QA model logic │ ├── spacy_model.py # Optional spaCy NER │ ├── routes.py # API routes ├── models/ # Model-related files │ ├── qa_model.py # Fine-tuned model handler ├── utils/ # Utility scripts │ ├── data_loader.py # Dataset preprocessing │ ├── tokenization.py # Tokenization utilities │ ├── ner.py # NER utilities │ ├── stackoverflow_qa.csv # Cleaned dataset ├── tests/ # Test cases │ ├── test_routes.py # Unit tests for API ├── requirements.txt # Dependencies ├── run.py # ```
 
 
 ## Future Enhancements
