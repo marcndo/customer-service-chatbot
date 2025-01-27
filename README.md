@@ -137,5 +137,5 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 ## Contact.
  * Feel free to reach out if you have any questions or suggestions:
  * Email: ndowahmarcel@gmail.com.
- * [LinkedIn](https://www.linkedin.com/in/marcelndowah/)
-*Thank you for exploring this project. I hope it demonstrates my skills and passion for AI and NLP development!
+ * [LinkedIn](https://www.linkedin.com/in/marcelndowah/).
+ *Thank you for exploring this project. I hope it demonstrates my skills and passion for AI and NLP development!
