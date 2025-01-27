@@ -79,10 +79,14 @@ Ensure you have the following installed:
 Place the StackOverflow QA dataset in utils/stackoverflow_qa.csv and run:
 ```python utils/data_loader.py```
 6. Fine-tune the model:
-   ```python app/bert_model.py```
-7. Run the API:
+   ```bash
+   python app/bert_model.py
+   ```
+8. Run the API:
 
-```python run.py```
+```bash
+python run.py
+```
 
 ## Usage
 Once the API is running, you can interact with the chatbot via the provided endpoints.
@@ -90,7 +94,8 @@ Once the API is running, you can interact with the chatbot via the provided endp
 Example Query
 Send a POST request to /api/ask with a JSON body:
 
-```{
+```bash
+{
   "question": "How do I install Python packages?"
 }
 ```
@@ -123,7 +128,7 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 -----------------------------------------------------------------
 
 ## Project Structure
-```customer_service_chatbot_project/ ├── README.md # Documentation ├── app/ # Application logic │ ├── bert_model.py # Fine-tuning BERT │ ├── qa_model.py # QA model logic │ ├── spacy_model.py # Optional spaCy NER │ ├── routes.py # API routes ├── models/ # Model-related files │ ├── qa_model.py # Fine-tuned model handler ├── utils/ # Utility scripts │ ├── data_loader.py # Dataset preprocessing │ ├── tokenization.py # Tokenization utilities │ ├── ner.py # NER utilities │ ├── stackoverflow_qa.csv # Cleaned dataset ├── tests/ # Test cases │ ├── test_routes.py # Unit tests for API ├── requirements.txt # Dependencies ├── run.py # API entry point ```
+```markdown customer_service_chatbot_project/ ├── README.md # Documentation ├── app/ # Application logic │ ├── bert_model.py # Fine-tuning BERT │ ├── qa_model.py # QA model logic │ ├── spacy_model.py # Optional spaCy NER │ ├── routes.py # API routes ├── models/ # Model-related files │ ├── qa_model.py # Fine-tuned model handler ├── utils/ # Utility scripts │ ├── data_loader.py # Dataset preprocessing │ ├── tokenization.py # Tokenization utilities │ ├── ner.py # NER utilities │ ├── stackoverflow_qa.csv # Cleaned dataset ├── tests/ # Test cases │ ├── test_routes.py # Unit tests for API ├── requirements.txt # Dependencies ├── run.py # API entry point```
 
 ## Future Enhancements
 1. Integrate a frontend interface for improved user experience.
@@ -133,5 +138,5 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 
 ## Contact.
  * Feel free to reach out if you have any questions or suggestions:
- * Email: ndowahmarcel@gmail.com
+ * Email: ndowahmarcel@gmail.com.
 Thank you for exploring this project. I hope it demonstrates my skills and passion for AI and NLP development!
