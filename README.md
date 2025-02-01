@@ -54,6 +54,7 @@ The architecture follows a modular and layered design:
 2. Model Layer:
    * Uses Hugging Face's Transformers library for LLM fine-tuning.
    * Includes spaCy for optional Named Entity Recognition (NER).
+     
 ## API Layer:
  * Implements a Flask API for user interaction.
  * Includes endpoints for asking questions and retrieving answers.
@@ -100,7 +101,6 @@ Send a POST request to /api/ask with a JSON body:
 }
 ```
 The chatbot will respond with a JSON object containing the answer.
-
 
 ## Dataset
 The project uses a curated StackOverflow QA dataset. This dataset includes pairs of questions and answers that have been cleaned and preprocessed to optimize model training.
