@@ -123,8 +123,8 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 ## API Endpoints
 | Endpoint        | Method | Description                         |
 |-----------------|--------|-------------------------------------|
-| /api/ask        | POST   | Submit a question for an answer    |
-| /api/health     | GET    | Check API health status            |
+| api/ask        | POST   | Submit a question for an answer    |
+| api/health     | GET    | Check API health status            |
 -----------------------------------------------------------------
 
 
