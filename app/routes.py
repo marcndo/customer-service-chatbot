@@ -11,6 +11,7 @@ from app.utils.qa import answer_question
 main = Blueprint('main', __name__)
 tokenizer, model = load_bert_model()
 
+# Classifier route
 @main.route('/classify', methods=['POST'])
 def classify():
     text = request.json.get('text')
@@ -21,13 +22,14 @@ def classify():
 
 nlp = load_spacy_model()
 
+# Route name entity recognition
 @main.route('/ner', methods=['POST'])
 def ner():
     text = request.json.get('text')
     entities = extract_entities(nlp, text)
     return jsonify({'entities': entities})
 
-#qa route
+# QA route
 qa_pipeline = load_qa_model()
 @main.route('/qa', methods=['POST'])
 def qa():
