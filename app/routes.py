@@ -8,8 +8,17 @@ from app.utils.ner import extract_entities
 from app.models.qa_model import load_qa_model
 from app.utils.qa import answer_question
 
+from app import create_app
+
 main = Blueprint('main', __name__)
 tokenizer, model = load_bert_model()
+
+app = create_app()
+
+# Home page route
+@app.route('/')
+def home():
+    return "Welcome to the Customer Service Chatbot API!"
 
 # Classifier route
 @main.route('/classify', methods=['POST'])
