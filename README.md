@@ -118,7 +118,7 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 ### Key Libraries
  * Hugging Face Transformers.
  * PyTorch.
- * spaCy (for NER)
+ * spaCy (for NER).
    
 ## API Endpoints
 | Endpoint        | Method | Description                         |
