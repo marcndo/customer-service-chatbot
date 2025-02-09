@@ -129,7 +129,7 @@ The fine-tuning process uses a pre-trained BERT model and adapts it to the Stack
 
 
 ## Future Enhancements
-1. Integrate a frontend interface for improved user experience.
+1. Integrate a frontend interface to improve user experience.
 2. Add support for multilingual QA.
 3. Implement real-time feedback loops to improve model performance.
 4. Explore other transformer models like GPT for enhanced conversational capabilities.
