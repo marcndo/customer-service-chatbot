@@ -34,7 +34,7 @@ This project serves as an end-to-end example of how to build a conversational ch
 ### Custom Fine-Tuned Model: 
 Fine-tuned BERT-based model on StackOverflow QA data.
 
-### Preprocessing Utilities: 
+### Preprocessing utilities: 
  Includes tokenization, dataset cleaning, and named entity recognition (NER).
  
  ### RESTful API: 
